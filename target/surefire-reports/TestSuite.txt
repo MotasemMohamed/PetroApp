@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.888 s <<< FAILURE! - in TestSuite
+Add_Valid_Car_Fuel_Consumption_Tracker(TestCase.Delete_Car_Fuel_Consumption_Tracker_Csvfile_Test)  Time elapsed: 1.149 s  <<< FAILURE!
+java.lang.ClassCastException: class org.openqa.selenium.remote.RemoteWebElement cannot be cast to class java.util.List (org.openqa.selenium.remote.RemoteWebElement is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+	at TestCase.Delete_Car_Fuel_Consumption_Tracker_Csvfile_Test.Add_Valid_Car_Fuel_Consumption_Tracker(Delete_Car_Fuel_Consumption_Tracker_Csvfile_Test.java:34)
+

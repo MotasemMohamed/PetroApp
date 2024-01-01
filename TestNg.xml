@@ -1,0 +1,9 @@
+<suite name="TestNg" >
+    <parameter name="browser" value="chrome" />
+    <test name ="chromeTest" preserve-order="true">
+        <classes>
+            <class name="TestCase.DataProvider.Add_Car_Fuel_Consumption_Tracker_DataProvider_Test"/>
+            <class name="TestCase.DataProvider.Delete_Car_Fuel_Consumption_Tracker_DataProvider_Test"/>
+        </classes>
+    </test>
+    </suite>

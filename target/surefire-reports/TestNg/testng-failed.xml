@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg]" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="chromeTest(failed)" verbose="0">
+    <classes>
+      <class name="TestCase.Delete_Car_Fuel_Consumption_Tracker_Csvfile_Test">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="tearDownClass"/>
+          <include name="Add_Valid_Car_Fuel_Consumption_Tracker"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- TestCase.Delete_Car_Fuel_Consumption_Tracker_Csvfile_Test -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [TestNg] -->
